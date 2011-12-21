@@ -1,0 +1,583 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+margin: 0;
+color: #666;
+font: 9pt Tahoma,Arial,Helvetica,Sans-Serif;
+line-height: 14px;
+letter-spacing: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper {
+	width:960px;
+	margin:0 auto;
+}
+
+ul li a {
+	color: #666;
+	text-decoration: none;
+}
+#head {
+width:100%;
+height:80px; 
+position:relative;
+background:url(http://i1.quwan.com/themes/default/imgs/global/xmas_headbg.gif) no-repeat;
+}
+#topnav {
+	position:absolute;
+	top:3px;
+	right:10px;
+	height:30px;
+}
+#topnav ul li{
+	float:left;
+	width:auto;
+	font-family:Tahoma, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:17px;
+	padding: 2px 5px;;
+	text-decoration: none;
+	line-height: 26px;
+}
+ 
+#topnew {
+	position:absolute;
+	top:35px;
+	right:10px;
+}
+#topnew ul li {
+	float:left;
+	width:60px;
+	height:30px;
+	padding: 0 5px;
+}
+
+a:hover {
+	color: #C90809;
+	text-decoration: underline;
+}
+.red  {
+	color: #C90809;
+}
+a.logourl {
+	display:block;
+	text-indent:9999;
+	width:250px;
+	height:80px;
+}
+
+
+#navbox { 
+margin: 0px auto;
+width: 960px;
+height: 32px;
+padding-top: 1px;
+background: url(http://i1.quwan.com/themes/default/imgs/global/xmas_navbg.gif) no-repeat 0 0;
+background-color: #CA0809;
+position: relative;
+z-index: 100;
+}
+#navbox ul {
+	padding-left:10px;
+}
+#navbox ul li {
+	float:left;
+	height:27px;
+	padding-top:5px;
+	width:90px;
+	text-align:center;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-left:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	
+}
+#navbox ul li a{
+	color:white;
+	font-family: "" Tahoma;
+	padding-top:5px;
+	font-size:14px;
+	line-height:17px;
+	display:block;
+	text-decoration:none;
+}
+#navbox ul li:hover {
+	background-color:white;
+	
+}
+#navbox ul li:hover a{
+ color: #C90809;
+}
+
+#sobox {
+line-height:26px;
+height: 36px;
+margin-bottom: 12px;
+border-bottom: 2px solid #F2F2F2;
+padding-top:7px;
+position: relative;
+}
+.search {
+	background-color:rgb(200,7,8); 
+	border:none;
+	color:white;
+	height: 22px;
+    width: 48px;
+	
+}
+.search_filed {
+	border:1px solid gray;
+}
+#sobox a {
+	text-decoration:none;
+	margin:0 10px;
+	color: #666;
+}
+
+
+
+.main {
+	overflow:hidden;
+}
+
+.clear {
+ clear:both;
+ font-size: 0;
+ line-height: 0;
+ height: 0;
+}
+.left {
+float:left;
+width:738px;
+display:block;
+min-height:400px;
+
+}
+
+.ad_container {
+	position:relative;
+	border-bottom: 1px solid #CCC;
+}
+.ad_image {
+	width:738px;
+	height:240px;
+}
+.flash {
+	position:relative;
+}
+ul.flash li {
+	position:absolute;
+	width:738px;
+	height:240px;
+	display:none;
+}
+.flash .show {
+	display:block;
+}
+ul.flash li img {
+	width:738px;
+	height:240px;
+}
+.ad_index {
+	position:absolute;
+	bottom:10px;
+	right:20px;
+	height:15px;
+	z-index:444;
+	
+}
+.ad_index ul li {
+	float:left;
+	line-height:15px;
+	font-size:10px;
+	width:20px;
+	BACKGROUND-COLOR: #fff;
+	color:#7F0019;
+	margin: 2px;
+	text-align:center;
+	BORDER: 1px solid #CECECE;
+	FONT-FAMILY: "Arial";
+}
+.ad_index ul li:hover, .ad_index ul li.index_on {
+	background-color:#7F0019;
+	color:white;
+	cursor:pointer;
+}
+
+/* fenlei */
+
+.category {
+	width:100%;
+	/*min-height:200px; */
+	margin-top:10px;
+}
+.category h2 { 
+	width: 143px;
+    height: 26px;
+	line-height:26px;
+	font-size:15px;
+	background: url(http://i.vanclimg.com/header/20110708/SpritesBg.gif) no-repeat -208px -210px;
+	color:white;
+	padding-left:20px;
+	font-family: "Microsoft YaHei";
+}
+.category ul { 
+	overflow: hidden;
+	border: 1px solid #CCC;
+}
+.category ul li {
+	width:120px;
+	float:left;
+	padding:15px 10px; 
+	margin:2px;
+	text-align:center;
+	border:white 1px solid;
+	border-bottom: 1px dashed #CCC;
+}
+.category ul li:hover{
+	border:#F27B04 1px solid;
+}
+
+.right {
+	float:right;
+	width:210px;
+	margin-left:10px;
+	display:block;
+	min-height:400px; 
+}
+.login_box {
+	
+}
+.login_box h2 {
+	line-height:27px;
+	font-size:22px;
+	text-align:center;
+	text-indent:-9999px;
+	
+}
+.login_box_link {
+/*	padding-left:10px;
+	text-align:center;
+	padding-top:5px;
+	border-top: 2px solid #F2F2F2;
+	*/
+	height: 39px;
+line-height: 39px;
+border-top: 1px solid #DDD;
+overflow: hidden;
+text-align: center;
+background-color: #CA0809;
+color: #CCC;
+}
+.login_box_link a {
+	margin: 0 10px;
+	color: #666;
+}
+.login_box_link a:hover{
+	text-decoration:underline;
+	cursor:pointer;
+	
+}
+ 
+.login_box a {
+	margin-right:10px;
+	color: white;
+	text-decoration:none;
+	font-size:14px;
+	font-family: "Microsoft YaHei";
+}
+.intro {
+	border: 2px solid #F2F2F2;
+	height: 236px;
+	background-color: #FFFBE1;
+	color: #C90809;
+}
+.intro ul {
+	margin-top:10px;
+}
+.intro ul li {
+	list-style:none;
+	height:60px;
+	border-bottom: 1px solid #E1E1E1;
+	text-align:center;
+}
+.intro ul li strong{
+	display:block;
+	line-height:35px;
+	font-family: "΢ź",arial, sans-serif;
+	font-weight: bold;
+	padding-left:10px;
+	font-size:18px;
+	text-align:left;
+}
+.intro ul li a{
+	padding:0 10px;
+	line-height:12px;
+	color:black;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.activity_ads {
+	margin-top:10px;
+}
+
+.breadcumb {
+	height:30px;
+	line-height:30px;
+}
+/* activity */
+.activity_list {
+	margin-top:20px;
+}
+.activity_head {
+	overflow:hidden;
+	 height: 51px;
+    width: 760px;
+	position:relative;
+    background: url(http://www.fanlibang.com/newtaobao/newimages/sales_title.gif) no-repeat scroll 0 0 transparent;
+}
+.search_bar {
+	position:absolute;
+	top:5px;
+	right:40px;
+}
+.activity_list ul li {
+	overflow:hidden;
+	border-top: 2px #CCC dotted;
+	padding:5px 0;
+}
+.act_logo {
+	float:left;
+	width:450px;
+	height:210px;
+	padding-right:10px;
+	border-right:2px #ccc dotted;
+}
+.act_detail {
+	float:left;
+	width:240px;
+	margin-left:10px;
+	height: 210px;
+}
+.act_detail  dt {
+	overflow:hidden;
+}
+.act_detail .site_logo, .daigou_detail .site_logo {
+	float:left; 
+	margin-top:30px; 
+}
+.act_detail .btn, .daigou_detail .btn {
+	display:block;
+	width:100px;
+	height:30px;
+	float:right;
+	font-size:28px;
+	line-height:30px;
+	background-color:#CA0809 ; 
+	color:white;
+	text-decoration:none;
+	font-family: 'Microsoft yahei', Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	text-align:center;
+	margin:30px 10px 0 0;
+}
+ 
+.act_detail dl dt {
+	height:auto;
+} 
+.act_title {
+	font-family: 'Microsoft yahei', Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	text-align:center;
+	clear:both;
+	padding:10px;
+}
+.act_static, .act_time {
+	text-align:center;
+	margin-top:10px;
+}
+/* daigou partial */
+
+.daigo_logo {
+	float: left;
+	width: 220px;
+	height: 220px;
+	overflow: hidden;
+	padding-right: 10px;
+	border-right: 2px #CCC dotted;
+}
+.daigou_detail {
+	float: left;
+width: 490px;
+margin-left: 10px;
+height: 220px;
+}
+.daigou_detail .site_logo {
+	margin-top:10px;
+}
+.daigou_detail table {
+	width:100%;
+	height:100%;
+}
+.daigou_detail table td {
+	border:1px  solid #ccc;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	word-wrap：break-word;
+}
+table td.filed_head {
+	font-family: 'Microsoft yahei', Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	width:85px;
+}
+/* tuan gou page */
+.tuanitem {
+	float:left;
+	width:360px; 
+	height:365px;
+	margin-left:5px;
+	border:1px solid #ccc;
+}
+.imgloading {
+	width:318px;
+	height:198px;
+	padding-left:10px;
+}
+.box-cont {
+	padding:5px 10px;
+}
+.deal-title a{
+	font-family: "Microsoft YaHei",黑体ed1\4f53,arial,sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	height: 56px;
+	overflow: hidden; 
+	color:#111;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+.deal-title {
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+.Price-font {
+	padding-top: 8px;
+	color: #F60;
+	font-size: 36px;
+	line-height: 38px;
+	overflow: hidden;
+	text-align: left;
+}
+.view-btn, .lavetime {
+	float:right;
+	
+}
+.deal-infor {
+	padding-top: 10px;
+}
+.view-btn {
+	margin-top: -30px;
+	background-color: #C80708;
+	border: none;
+	color: white;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	font-size: 22px;
+	text-align: center;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+.view-btn:hover {
+	background-color: #F60;
+	color: black;
+}
+.count {
+	float:left;
+}
+/*
+site description box
+
+.site_detail {
+	float:left;
+	height: 199px;
+	width: 193px;
+	border:1px #ccc solid;
+}
+.site_desc {
+	float:left;
+	margin-left:10px;
+}
+.site_description h2 {
+	font-size:16px;
+	font-family: "Microsoft YaHei";
+	line-height:26px;
+	color:black;
+}
+
+.site_logo {
+	text-align: center;
+	padding-top: 40px;
+}*/
+/*
+.nav_container {
+	position:relative;
+	margin-top:10px;
+}
+.nav_title {
+	 
+	width:100%;
+	height:30px; 
+	background-color:gray;
+}
+*/
+.footer {
+	margin:20px auto;
+	width:960px;
+	background: #F7F7F7;
+	text-align:center;
+	padding-bottom:10px;
+}
+ 
