@@ -539,7 +539,7 @@ table td.filed_head {
 }
 .tuan_nav_cont {
     height: 40px;
-    margin: 10px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #CCC;
 }
 .tuan_nav_bar {
@@ -592,6 +592,21 @@ table td.filed_head {
 .tuan_section ul li span {
  color:#C00;
  padding-right:5px;
+}
+.tuan_city {
+    overflow:hidden;
+}
+.tuan_city a {
+    display:block;
+    float:left;
+    margin-left:10px;
+    line-height:20px;
+    font-size:12px ;
+    text-decoration:none;
+    padding:10px;
+    margin-left:10px;
+    color:white;
+    background:#C90809;
 }
 /*
 site description box
