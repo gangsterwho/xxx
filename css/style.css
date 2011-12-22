@@ -537,6 +537,31 @@ table td.filed_head {
 .count {
 	float:left;
 }
+.tuan_nav_cont {
+    height: 40px;
+    margin: 10px 0;
+    border-bottom: 1px solid #CCC;
+}
+.tuan_nav_bar {
+    line-height: 30px;
+    font-size: 12px;
+    margin-left:10px;
+}
+.tuan_nav_bar strong {
+    font-weight:bold;
+}
+.tuan_nav_bar a {
+    line-height:20px;
+    font-size:12px;
+    color: #C90809;
+    text-decoration:none;
+    padding:10px;
+    margin-left:10px;
+}
+.tuan_nav_bar a:hover {
+    color:white;
+    background:#C90809;
+}
 /*
 site description box
 
