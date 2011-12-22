@@ -562,6 +562,37 @@ table td.filed_head {
     color:white;
     background:#C90809;
 }
+.tuan_section_wrapper {
+    border:1px solid #ccc;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+}
+.tuan_section {
+    padding:5px 10px;
+}
+.tuan_section h2 {
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 5px 13px 0;
+    line-height: 20px;
+    color: #111;
+    font-family: tahoma, arial, 宋体, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    border-bottom: 1px solid #CCC;
+}
+.tuan_section ul li  {
+        padding-left:15px;
+        font-size:14px;
+        line-height:30px;
+}
+.tuan_section ul li span {
+ color:#C00;
+ padding-right:5px;
+}
 /*
 site description box
 
