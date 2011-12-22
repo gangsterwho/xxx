@@ -183,6 +183,9 @@ position: relative;
 	margin:0 10px;
 	color: #666;
 }
+#sobox a:hover {
+	color: #C90809;
+}
 
 
 
@@ -342,18 +345,16 @@ color: #CCC;
 	background-color: #FFFBE1;
 	color: #C90809;
 }
-.intro ul {
-	margin-top:10px;
-}
+ 
 .intro ul li {
 	list-style:none;
-	height:60px;
+	height:50px;
 	border-bottom: 1px solid #E1E1E1;
 	text-align:center;
 }
 .intro ul li strong{
 	display:block;
-	line-height:35px;
+	line-height:25px;
 	font-family: "΢ź",arial, sans-serif;
 	font-weight: bold;
 	padding-left:10px;
@@ -367,9 +368,19 @@ color: #CCC;
 	font-family: Tahoma, Geneva, sans-serif;
 }
 .activity_ads {
-	margin-top:10px;
+	margin:10px 0;
 }
-
+.ads_sidebar {
+	margin-top:15px;
+}
+.ads_sidebar h2 {
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 1px solid #CACACA;
+	font-family: 黑体;
+}
 .breadcumb {
 	height:30px;
 	line-height:30px;
