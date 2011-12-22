@@ -146,6 +146,13 @@ z-index: 100;
 #navbox ul li:hover a{
  color: #C90809;
 }
+#navbox .on {
+	background-color:white;
+	color: #C90809;
+}
+#navbox .on a {
+	color: #C90809;
+}
 
 #sobox {
 line-height:26px;
@@ -155,6 +162,10 @@ border-bottom: 2px solid #F2F2F2;
 padding-top:7px;
 position: relative;
 }
+#sobox form {
+	line-height: 36px;
+}
+
 .search {
 	background-color:rgb(200,7,8); 
 	border:none;
@@ -164,7 +175,8 @@ position: relative;
 	
 }
 .search_filed {
-	border:1px solid gray;
+	border:1px solid #F60;;
+	width:160px;
 }
 #sobox a {
 	text-decoration:none;
@@ -568,6 +580,7 @@ table td.filed_head {
     -moz-border-radius:5px;
     -o-border-radius:5px;
     -ms-border-radius:5px;
+	margin:10px 0 10px -5px;
     border-radius:5px;
 }
 .tuan_section {
