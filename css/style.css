@@ -363,8 +363,8 @@ color: #CCC;
 }
 .intro ul li a{
 	padding:0 10px;
-	line-height:12px;
-	color:black;
+	line-height:25px;
+	color: #666;
 	font-family: Tahoma, Geneva, sans-serif;
 }
 .activity_ads {
